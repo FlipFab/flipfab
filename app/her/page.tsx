@@ -1,5 +1,5 @@
-import products from "@/lib/products"
-import ProductCard from "@/components/ProductCard"
+import products from "../../lib/products"
+import ProductCard from "../../components/ProductCard"
 
 export default function Her() {
   const list = products.filter(p => p.gender !== "him")
